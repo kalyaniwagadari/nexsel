@@ -1,0 +1,257 @@
+*{
+  padding: 0;
+  margin:0;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+body{
+  width: 100%;
+    height: 100%;
+  overflow-x:hidden;
+  font-family: 'Open Sans', sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing:antialiased !important; 
+}
+
+a{
+  text-decoration:none;
+  transition: all 500ms ease-in-out;
+}
+ul {
+    list-style-type: none;
+    margin-top: -3%;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+   padding: 15px 37px 9px 37px!important;
+      color: white;
+
+}
+li {
+    float: left;
+}
+
+.nav>li>a:hover {
+background-color: transparent!important;
+color: #de9707!important;
+
+}
+#n-img{
+  margin: 0; float: right;
+}
+#navimg{
+  position: relative;
+}
+#logo{
+  margin: 0; float: none;
+}
+
+.i1{
+  padding-top: 60px;
+    padding-left: 20px;
+}
+.navbar1{
+  background-color: black;
+  padding-bottom: 28px;
+     border-radius: none!important;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px!important;
+    border:none!important;
+    border-radius: 0px!important;
+
+}
+
+.cmn-t-underline {
+  position: relative!important;
+
+
+}
+.cmn-t-underline:after {
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  bottom:5px;
+  width: 0px;
+  height: 2px;
+
+  background-color:#de9707;
+  content: "";
+  transition: width 0.8s;
+}
+.cmn-t-underline:hover {
+  color: #de9707!important;
+}
+.cmn-t-underline:hover:after {
+  width:50%;
+}
+.top-left {
+    position: absolute;
+    color: black;
+    top: 9%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.top-left1 {
+    position: absolute;
+    color: black;
+    top: 9%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.list2{
+   margin: 0px;
+    font-size: 13px;
+    position: absolute;
+    left: 85%;
+
+}
+.other {
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 50%;
+}
+.fa:hover {
+opacity: 0.7;
+}
+#fa-linkedin1 {
+    background: black;
+    color: #df9906;
+}
+
+.fa-facebook{
+background: #939393;
+color: white;
+}
+
+.fa-twitter {
+background: #939393;
+color: white;
+}
+
+.fa-linkedin {
+background:#ffb90f;
+color: white;
+}
+.c1{
+padding-bottom: 80px;
+background-color: #363736;
+
+}
+.contact{
+      color:white;
+    font-size: 23px;
+    padding: 83px 0px 0px 42%;
+    font-weight: bold;
+
+}
+.c2{
+padding-bottom: 39%;
+
+}
+.align{
+  padding-left: 96px;
+   
+    padding-top: 50px;
+}
+.us{
+      font-weight: bold;
+    font-size: 25px;
+
+}
+.para{
+      padding-top: 20px;
+    font-size: 15px;
+    line-height: 28px;
+}
+.para1{
+    
+    font-size: 15px;
+    line-height: 28px;
+}
+.test{
+      padding-top: 20px;
+}
+
+#i1{
+   font-size: 15px;
+    width: 20px;
+    margin-right:11px;
+        padding-bottom: 0px;
+
+}
+.send{
+  margin-right: 11px;
+}
+.bordercol{
+ border: 1px solid;
+ padding: 23px 25px;
+ margin-top: 83px;
+}
+.get{
+    font-size: 22px;
+    font-weight: bold;
+}
+.r1{
+      padding-right: 7%;
+}
+#form1{
+  padding-bottom: 146px;
+    padding-top: 20px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 20px 13px!important;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px!important;
+    -webkit-box-shadow:none!important;
+   box-shadow: none!important; 
+    }
+.btn {
+    display: inline-block;
+    padding: 7px 38px!important;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0px!important;
+
+  }
+.btn-default {
+    color: white!important;
+    background-color: black!important;
+    border-color:black!important;
+}
+.btn-default:hover{
+ color: black!important;
+    background-color: grey!important;
+
+  }
